@@ -7,10 +7,10 @@ package pooiilistaum.models;
 public class TurmaAluno {
     
     public void adicionarAluno(Aluno a) {
-        System.out.println("Not Implemented");
+        throw new UnsupportedOperationException("Not implemented yet.");
     }
     
     public void removerAluno(Aluno a) {
-        System.out.println("Not Implemented");
+        throw new UnsupportedOperationException("Not implemented yet.");
     }
 }
