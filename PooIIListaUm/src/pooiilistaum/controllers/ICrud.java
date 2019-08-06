@@ -9,7 +9,7 @@ package pooiilistaum.controllers;
  *
  * @author dseabra
  */
-interface Icrud {
+interface ICrud {
     public void cadastrar (Object o);
     public void remover (Object o);
     public void atualizar (Object o);

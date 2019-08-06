@@ -4,7 +4,7 @@ package pooiilistaum.controllers;
  *
  * @author dseabra
  */
-public class TurmaController implements Icrud {
+public class TurmaController implements ICrud {
 
     @Override
     public void cadastrar(Object o) {

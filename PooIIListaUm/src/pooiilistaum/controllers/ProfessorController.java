@@ -4,7 +4,7 @@ package pooiilistaum.controllers;
  *
  * @author dseabra
  */
-public class ProfessorController implements Icrud {
+public class ProfessorController implements ICrud {
 
     @Override
     public void cadastrar(Object o) {

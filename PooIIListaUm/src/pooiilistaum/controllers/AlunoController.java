@@ -4,7 +4,7 @@ package pooiilistaum.controllers;
  *
  * @author dseabra
  */
-public class AlunoController implements Icrud {
+public class AlunoController implements ICrud {
 
     @Override
     public void cadastrar(Object o) {
