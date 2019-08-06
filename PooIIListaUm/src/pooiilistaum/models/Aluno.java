@@ -1,14 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package pooiilistaum.models;
 
 /**
  *
  * @author dseabra
  */
-public class Aluno {
+public class Aluno extends Pessoa {
+    Integer matricula;
+
+    public Integer getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(Integer matricula) {
+        this.matricula = matricula;
+    }
     
 }
